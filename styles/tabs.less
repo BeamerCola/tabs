@@ -6,6 +6,7 @@
 .tab-bar {
   display: -webkit-flex;
   -webkit-user-select: none;
+  -webkit-app-region: drag;
   margin: 0;
 
   .tab {
@@ -14,6 +15,7 @@
     padding-left: 10px;
     padding-right: 10px + @close-icon-size + 2px;
     -webkit-user-drag: element;
+    -webkit-app-region: no-drag;
     -webkit-flex: 1;
     max-width: 175px;
     min-width: 40px;
